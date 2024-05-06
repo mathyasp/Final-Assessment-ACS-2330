@@ -12,24 +12,25 @@
 	<div class="container">
 		<div class="inner-container">
 			<form>
+				<p>Use the sliders below to adjust the appearance of the image.</p>
 				<label for="hue">
 					<span>Hue Rotate</span>
-					<input id="hue" type="range" min="0" max="360" value="0" />
+					<input id="hue" type="range" min="0" max="360" value="0" role="slider" aria-valuemin="0" aria-valuemax="360" aria-valuenow="0" />
 				</label>
 				
 				<label for="blur">
 					<span>Blur</span>
-					<input id="blur" type="range" min="0" max="40" value="0" />
+					<input id="blur" type="range" min="0" max="40" value="0" role="slider" aria-valuemin="0" aria-valuemax="40" aria-valuenow="0" />
 				</label>
 
 				<label for="contrast">
 					<span>Contrast</span>
-					<input id="contrast" type="range" min="0" max="400" value="50" />
+					<input id="contrast" type="range" min="0" max="400" value="50" role="slider" aria-valuemin="0" aria-valuemax="400" aria-valuenow="50" />
 				</label>
 
 				<label for="saturation">
 					<span>Saturation</span>
-					<input id="saturation" type="range" min="0" max="200" value="100" />
+					<input id="saturation" type="range" min="0" max="200" value="100" role="slider" aria-valuemin="0" aria-valuemax="200" aria-valuenow="100" />
 				</label>
 			</form>
 			<img src="./dali.png" width="400" height="400" alt="Four stylized portraits of Salvador Dalí, showcasing various artistic techniques and color schemes."/>
